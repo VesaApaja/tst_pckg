@@ -31,7 +31,7 @@ git push -u origin main
 
 
  git remote -v
-origin	https://github.com/VesaApaja/tst_pckg.git (fetch)
+origin	https://github.com/VesaApaja/tst_pckg.git (fetch)  
 origin	https://github.com/VesaApaja/tst_pckg.git (push)
 
 $ ssh -T git@github.com
