@@ -19,7 +19,7 @@ Make it a git repo and send it to github
 $ git init  
 $ git add .  
 $ git commit -m "Initial commit"  
-#ssh auth  
+## ssh auth  
 Login to github and setup ssh key authentication.
 Then 
 $ git remote set-url origin git@github.com/VesaApaja/tst_pckg.git
