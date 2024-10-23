@@ -15,11 +15,13 @@ don't use setup.py any more , use pyproject.toml with, for example,
  I can now install the package,  
  $pip install dist/tst_pckg-0.1-py3-none-any.whl  
 
-make it a git repo and send it to github  
+Make it a git repo and send it to github  
 $ git init  
 $ git add .  
 $ git commit -m "Initial commit"  
-ssh auth  
+#ssh auth  
+Login to github and setup ssh key authentication.
+Then 
 $ git remote set-url origin git@github.com/VesaApaja/tst_pckg.git
 
 for https auth this would be  
