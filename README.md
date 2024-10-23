@@ -4,10 +4,13 @@ Reminder for me: build and distribute package
 pip install build
 
 PEP 517 and PEP 518:
-don't use setup.py any more , use pyproject.toml with, for example, 
+don't use setup.py any more , use pyproject.toml with, for example,
+
  [build-system]
+ 
  requires = ["setuptools>=42", "wheel"]
- build-backend = "setuptools.build_meta"
+ 
+  build-backend = "setuptools.build_meta"		
 
  python -m build
  this creates tst_pckg-0.1-py3-none-any.whl
@@ -37,6 +40,7 @@ Hi VesaApaja! You've successfully authenticated, but GitHub does not provide she
 Login to your (my) gothub page and add a new repository tst_pckg
 
 $ git push --set-upstream origin master
+
 Enumerating objects: 24, done.
 Counting objects: 100% (24/24), done.
 Delta compression using up to 16 threads
