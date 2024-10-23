@@ -18,10 +18,11 @@ make it a git repo and send it to github
 git init
 git add .
 git commit -m "Initial commit"
-# ssh auth
+ssh auth
 git remote set-url origin git@github.com/VesaApaja/tst_pckg.git
-## for https auth this would be  
-#git remote add origin https://github.com/VesaApaja/tst_pckg.git
+
+for https auth this would be  
+git remote add origin https://github.com/VesaApaja/tst_pckg.git
 
 git push -u origin main
 
