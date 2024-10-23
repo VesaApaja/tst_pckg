@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tst_pckg
+Version: 0.1
+Summary: Test package
+Home-page: https://github.com/VesaApaja/tst_pckg
+Author: Vesa
+Author-email: vesa.apaja@iki.fi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Simple test package
+
+# Reminder for me: build and distribute package
+
+# pip install build
+
+# don't use setup.py any more, use pyproject.toml
+# python -m build
+
+# make it a git repo and send it to 
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/VesaApaja/tst_pckg.git
+git push -u origin main
